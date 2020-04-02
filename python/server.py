@@ -4,7 +4,7 @@ import socket
 import sys
 
 host = sys.argv[2] if len(sys.argv) >= 3 else '127.0.0.1'
-port = int(sys.argv[1]) if len(sys.argv) >= 2 else 8080
+port = int(sys.argv[1]) if len(sys.argv) >= 2 else 3003
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)

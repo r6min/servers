@@ -3,7 +3,7 @@
 var http = require('http');
 
 host = process.argv[3] || '127.0.0.1'
-port = parseInt(process.argv[2] || 8080)
+port = parseInt(process.argv[2] || 3002)
 
 http.createServer(function(req, resp) {
   var k, v;

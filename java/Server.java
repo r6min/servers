@@ -6,7 +6,7 @@ import java.io.*;
 public class Server {
   public static void main(String[] argv) throws IOException {
     String host = "127.0.0.1";
-    short port = 8080;
+    short port = 3001;
 
     if(argv.length >= 2)
       host = argv[1];

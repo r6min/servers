@@ -3,7 +3,7 @@
 require 'socket'
 
 host = ARGV[2] || '127.0.0.1'
-port = (ARGV[1] || 8080).to_i
+port = (ARGV[1] || 3004).to_i
 
 server = TCPServer.new(host, port)
 

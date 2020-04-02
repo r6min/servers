@@ -14,7 +14,7 @@ func handler(w http.ResponseWriter, req *http.Request) {
 
 func main() {
 	host := "127.0.0.1"
-	port := "8080"
+	port := "3000"
 
 	if len(os.Args) > 1 {
 		host = os.Args[1]
